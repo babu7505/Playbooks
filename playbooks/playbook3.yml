@@ -1,0 +1,15 @@
+---
+- name: create a directory and download jenkins on all servers
+  hosts: all
+  tasks:
+    - name: create a directory
+      file:
+        name: /tmp/Jenkins-Download
+        state: directory
+    - name: download jenkins
+      uri:
+        url: https://get.jenkins.io/war-stable/2.492.2/jenkins.war
+        dest: /tmp/Jenkins-Download
+        mode: 755
+        owner: babu
+        group: root
