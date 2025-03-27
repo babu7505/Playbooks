@@ -1,0 +1,27 @@
+---
+- name: Install and ensure Apache HTTP Server is running
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install Apache HTTP Server (httpd)
+      apt:
+        name: apache2
+        state: present
+        update_cache: yes
+    - name: midify the contnet of index.html
+      copy:
+        content: "the apache2 app"
+        dest: /var/www/html/index.html
+    - name: resatrt apcach2
+      service:
+        name: apache2
+        state: restarted 
+    - name: check the status of apache2 servers status
+      uri:
+        url: http://172.31.95.180
+        status_code: 200
+    - name: check the status of the server2
+      uri:
+        url: http://172.31.93.239
+        status_code: 200
+

@@ -322,3 +322,170 @@ ls
 cd playbooks/
 ls
 cat > playbook3.yml
+cd playbooks/
+cat > playbook4.yml
+ansible-playbook playbook4.yml --syntax-check
+sudo vim playbook4.yml
+ansible-playbook playbook4.yml --syntax-check
+ansible-playbook playbook4.yml -b
+sudo vim playbook4.yml
+ansible-playbook playbook4.yml -b
+ssh 172.31.93.239
+git remote add origin https://github.com/babu7505/Playbooks.git
+cd ..
+git remote add origin https://github.com/babu7505/Playbooks.git
+git add .
+git init
+git add .
+git commit -m "a"
+git remote add origin https://github.com/babu7505/Playbooks.git
+git push -u origin master
+ls -ltra
+rm -rf .git
+ls -ltra
+git init
+git add .
+git commit -m "a"
+git remote add origin https://github.com/babu7505/Playbooks.git
+git push -u origin master
+ls
+ls -ltra
+cp index.html playbooks/
+cd playbooks/
+ls
+cat >playbook5.yml
+ansible-playbook playbook5.yml --syntax-check
+ansible-playbook playbook5.yml -b
+cd /playbook/
+ls -ltra
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+ls -ltra
+pwd
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+exit
+cd playbooks/
+ls
+cat > playbook3.yml
+ls -ltra
+ansible-playbook playbook3.yml --syntax-check
+sudo vim playbook3.yml
+ansible-playbook playbook3.yml --syntax-check
+ansible-playbook playbook3.yml -b
+ssh 172.31.93.239
+ls
+cd playbooks/
+ls -ltra
+cat > playbook5.yml
+ansible-playbook playbook6.yml --syntax-checker
+ansible-playbook playbook6.yml --syntax-check
+ls
+cat playbook5.yml
+ansible-playbook playbook5.yml --syntax-check
+ansible-playbook playbook5.yml 
+ansible-playbook playbook5.yml -b
+cat playbook5.yml
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+cat playbook1.yml
+cat playbook2.yml
+cat playbook3.yml
+cat playbook4.yml
+clear
+cat playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+cd .
+cd ..
+ls
+cd etc
+cd /etc
+ls
+cat hosts
+sudo vim hosts
+ansible all -m apt -a 'name=httpd state=present update_cache=yes' -b
+ansible all -m apt -a 'name=apache state=present update_cache=yes' -b
+ansible all -m apt -a 'name=Apache  state=present update_cache=yes' -b
+ansible -m apt -a 'name=Apache  state=present update_cache=yes' -b
+cd ansible/
+ls
+cat hosts 
+sudo vim hosts 
+cd ..
+cd pl
+ls
+cd tmp
+ls
+cd ..
+ls -ltra
+exit
+ls
+cd playbooks/
+ls -ltra
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+apache2 --version
+ssh 172.31.95.180
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+sudo vim playbook5.yml
+ansible-playbook playbook5.yml -b
+ssh 172.31.93.239
+ansible-playbook playbook5.yml -b
+ssh [172.31.95.180
+ssh 172.31.95.180
+ansible-playbook playbook5.yml -b
+cat playbook4.yml
+cat playbook5.yml
+cd ..
+cd etc
+cd /etc
+ls
+ls ng*
+/etc/nginx
+cd /etc/nginx
+nginx -v
+cd ..
+cd exit
+exit
+cd playbooks/
+ls
+cat > playbook6.yml
+ansible-playbook playbook6.yml --syntax-check
+ansible-playbook playbook6.yml 
+cd /etc
+ls
+cd ..
+cd etc
+nginx
+ls -ltra
+ls
+ls n*
+nginx -v
+sudo apt-get install -y nginx
+nginx -v
+cd etc.
+ls
+cd nginx
+ls -ltra
+pwd
+exit
+cd playbooks/
+cat > playbook7.yml
+ansible-playbook playbook7.yml --syntax-check
+ansible-playbook playbook7.yml 

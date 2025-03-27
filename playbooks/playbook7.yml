@@ -1,0 +1,11 @@
+---
+- name: copy nginx config from control servers to all
+  hosts: all
+  become: yes
+  tasks:
+    - name: opy nginx config to all
+      copy:
+        src: /etc/nginx/nginx.conf
+        dest: /tmp/nginx
+        owner: babu
+        group: root
